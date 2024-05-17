@@ -10,7 +10,7 @@ st.set_page_config(page_title="Real-Time Application Profiling", layout="wide")
 st.title("Real-Time Application Profiling")
 
 # Get the path to the EXE application from user input
-path = st.text_input("Enter Path of the EXE Application:", value="")
+path = st.text_input("Enter Path of the EXE Application:", value="C:\Windows\System32\mspaint.exe")
 profile_button = st.button('Start Profiling')
 
 if path and profile_button:
